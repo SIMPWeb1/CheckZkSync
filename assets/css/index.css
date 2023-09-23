@@ -96,12 +96,12 @@ p {
 }
 
 .btn {
-    color: #120F0E;
-    font-size: 1.5vw;
+    color: #FFF;
+    font-size: 1vw;
     font-family: Gilroy-Bold;
     background: #794d9a;
-    padding: 1vw 3vw;
-    box-shadow: 0vw 1vw 2vw rgba(255, 162, 2, .3);
+    border-radius: 16px;
+    padding: 1vw 2vw;
     transition: all .5s;
 }
 
@@ -109,14 +109,32 @@ p {
     background: transparent;
     border: 1px solid #794d9a;
     color: #FFFFFF;
-    box-shadow: 0vw 1vw 2vw rgba(255, 255, 255, 0.3);
+     box-shadow: 0vw 1vw 2vw rgb(208, 2, 255 , .3);
+
+}
+.btn-2 {
+    color: #794d9a;
+    font-size: 1vw;
+    font-family: Gilroy-Bold;
+    background: #FFF;
+    border-radius: 16px;
+    padding: 1vw 2vw;
+    transition: all .5s;
+}
+
+.btn-2:hover {
+    background: transparent;
+    border: 1px solid #794d9a;
+    color: #FFFFFF;
+     box-shadow: 0vw 1vw 2vw rgb(208, 2, 255 , .3);
 
 }
 
 .btn1 {
     font-size: 1vw;
+    border-radius: 16px;
     font-family: Gilroy-Bold;
-    color: #794d9a;
+    color: #FFF;
     padding: 1vw 2vw;
     border: 1px solid #794d9a;
     transition: all .5s;
@@ -124,8 +142,8 @@ p {
 
 .btn1:hover {
     background: #794d9a;
-    color: #120F0E;
-    box-shadow: 0vw 1vw 2vw rgba(255, 162, 2, .3);
+    color: #FFF;
+    box-shadow: 0vw 1vw 2vw rgb(208, 2, 255 , .3);
 }
 
 .bb {
@@ -800,6 +818,11 @@ footer .content a img {
     }
 
     .btn1 {
+        font-size: 3vw;
+        padding: 1.5vw 2vw;
+        margin-top: 10px;
+    }
+    .btn-2 {
         font-size: 3vw;
         padding: 1.5vw 2vw;
     }

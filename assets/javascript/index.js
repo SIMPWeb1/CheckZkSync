@@ -32,6 +32,10 @@ for (i = 0; i < coll.length; i++) {
   });
 }
 
+function copyCA() {
+  navigator.clipboard.writeText("0xB33C28097dfA58D16cF7A2093A49209D78EF4b12")
+}
+
 
 // const navbarToggle1 = document.querySelector(".drop");
 // const navbarLinks1 = document.querySelector(".dropdown-content");
